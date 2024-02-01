@@ -49,6 +49,11 @@
             <li>Etic university</li>
             <li>Groupe Etic</li>
             <li>Nos Formation</li>
+            <li>
+                <a href="{{ route('mon-cv') }}">
+                    Mon CV
+                </a>
+            </li>
         </ul>
         <div class="navbar_Gauche">
                 <button class="Connexion">Connexion</button>

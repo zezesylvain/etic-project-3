@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('layouts.template');
 });
 
+Route::get('cv', function () {
+    return view('cv');
+})->name('mon-cv');
 /*
 Route::get('{slug}.html', function ($slug) {
     return view("pages.$slug");
